@@ -112,6 +112,7 @@ margin-left: 55px;
     
 padding: 22px 0;
 }
+/* camera collection */
 .camera-collection {
 
 margin-top: 70px;
@@ -121,8 +122,8 @@ margin-bottom: 50px;
     text-align: center;
     margin-bottom: 30px;
 }
-.collection-items{display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 20px;width: 70%;margin: auto;}
-.collection-item{
+.collection-items,.members{display: grid;grid-template-columns: repeat(3, 1fr);grid-column-gap: 20px;width: 70%;margin: auto;}
+.collection-item,.member{
 
 margin-top: 30px;
 
@@ -179,4 +180,86 @@ color: #E02C6D;
 }
 .see-more i{
     margin-left: 5px;
+}
+
+/* team member css */
+.team-member{
+    
+margin-bottom: 60px;
+}
+.team-member h1,h5{
+    
+text-align: center;
+    
+font-size: 35px;
+}
+.team-member h5{ 
+font-size: 16px;
+margin-bottom: 30px;
+}
+.members{
+
+}
+.member{
+}
+.member-img{
+
+text-align: center;
+}
+.member-img img{
+    height: 345px;
+}
+.member-contents{
+
+text-align: center;
+}
+.member-contents h2{
+    
+text-transform: capitalize;
+    
+color: #3a3a3a;
+}
+.member-contents p{
+    
+color: #787885;
+}
+.member-contents,.preebook{
+    
+background-color: transparent;
+    
+text-align: -webkit-center;
+}
+.member-contents,.preebook a{
+    color: #E02C6D;
+}
+.member-contents,.preebook:hover{
+    background-color: transparent;
+}
+/* member css end */
+footer{
+background-color: #0A0826;
+height: 200px;
+}
+.footer-contents{text-align: center;padding: 30px 0;}
+.footer-contents h2{
+    
+color: #ffff;
+    
+font-size: 30px;
+}
+.footer-contents p{
+    
+color: #fff;
+}
+.footer-contents i{
+    color: #fff;
+}
+.social-icons i{
+    margin-top: 10px;
+}
+.fab{
+    
+font-size: 24px;
+    
+padding: 0 15px;
 }

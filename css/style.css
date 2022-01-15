@@ -78,6 +78,7 @@ line-height: 45px;
 
 margin-left: 5px;
 
+color: #fff;
 }  
     .journey-image{
     }
@@ -274,16 +275,43 @@ padding: 0 15px;
 /* media query for small phone*/
 @media only screen and (max-width:576px) {
     .top-title{
-        font-size: 20px;
+        font-size: 30px;
     }
     .influencers-journey{
         
     }
     .influencers-journey h1{
        
+font-size: 37px;
     }
     .influencers-journey p{
 
+font-size: 16px;
+
+}
+    .journey-contents{
+        
+flex-direction: column;
+    }
+    .journey-content{
+        
+width: 100%;
+    }
+    .journey-image{
+
+text-align: center;
+
+}
+    .journey-image img{
+        
+height: 250px;
+    }
+    .camera-collection h1{
+font-size: 30px;
+    }
+    .collection-items, .members{
+        
+grid-template-columns: repeat(1, 1fr);
     }
 
 }

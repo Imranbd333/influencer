@@ -227,19 +227,19 @@ header,.influencers-journey,.logos{
 }
 /* member css end */
 footer{
-background-color: #0A0826;
-height: 200px;
+    background-color: #0A0826;
+    height: 200px;
 }
-.footer-contents{text-align: center;padding: 30px 0;}
-.footer-contents h2{
-    
-color: #ffff;
-    
-font-size: 30px;
+.footer-contents{
+    text-align: center;
+    padding: 30px 0;
 }
-.footer-contents p{
-    
-color: #fff;
+.footer-contents h2{   
+    color: #ffff;   
+   font-size: 30px;
+}
+.footer-contents p{  
+   color: #fff;
 }
 .footer-contents i{
     color: #fff;
@@ -247,13 +247,39 @@ color: #fff;
 .social-icons i{
     margin-top: 10px;
 }
-.fab{
-    
-font-size: 24px;
-    
-padding: 0 15px;
+.fab{   
+   font-size: 24px;   
+   padding: 0 15px;
 }
 
+
+/* media query for tablet */
+@media only screen and (max-width:768px){
+
+.journey-contents h1 {
+    font-size: 36px;
+    }
+.journey-contents img {
+
+   height: 90%;
+}
+.journey-contents p{   
+   font-size: 14px;
+}
+.collection-items{
+        
+    grid-template-columns: repeat(2, 1fr);
+}
+.contents h1,h2{
+        font-size: 24px;
+}
+.contents p{
+    font-size: 16px;
+}
+.members{
+    grid-template-columns: repeat(1, 1fr)   
+}
+}
 
 
 /* media query for small phone*/
@@ -261,9 +287,7 @@ padding: 0 15px;
     .top-title{
         font-size: 30px;
     }
-    .influencers-journey{
-        
-    }
+
     .influencers-journey h1{
        
 font-size: 37px;
@@ -302,40 +326,17 @@ grid-template-columns: repeat(1, 1fr);
     }
     .footer-contents p,i{
         font-size: 14px;
-        padding: 0 10px;
+        
     }
     .social-icons i{
         padding: 0 10px;
     }
-}
-
-/* media query for tablet */
-@media only screen and (max-width:768px){
-    .journey-contents {
+    @keyframes updown {
+        0%{
+         top:  98%;
+        }
+        100%{
+         top:  95%;
+        }
     }
-    .journey-contents h1 {
-        font-size: 36px;
-    }
-    .journey-image {
-    }
-    .journey-contents img {
-
-height: 90%;
-}
-.journey-contents p{   
-font-size: 14px;
-}
-.collection-items{
-        
-    grid-template-columns: repeat(2, 1fr);
-        }
-        .contents h1,h2{
-            font-size: 24px;
-        }
-        .contents p{
-            font-size: 16px;
-        }
-        .members{
-            grid-template-columns: repeat(1, 1fr)
-        }
 }

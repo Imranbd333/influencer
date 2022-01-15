@@ -10,13 +10,17 @@
         margin: auto;
         margin-top: 50px;
     }
-    .top-title,.camera-collection h1 {color: #3a3a3a;font-size: 40px;}
+.top-title,.camera-collection h1 {color: #3a3a3a;font-size: 40px;}
 
-    .influencers-journey{margin-top: 10px;margin-bottom: 70px;}
-    .journey-contents{
+    
+.influencers-journey{
+        margin-top: 10px;
+       margin-bottom: 70px;
+   
+ }
+.journey-contents{
 
 display: flex;
-
 justify-content: space-between;
 position: relative;
 }
@@ -31,7 +35,7 @@ margin-top: 60px;
 font-size: 59px;
 
 }
-    .journey-content,.contents p p{
+    .journey-content,.contents  p{
 
 font-size: 18px;
 
@@ -39,7 +43,7 @@ color: #3a3a3a;
 
 font-weight: 600;
 }
-.preebook {
+.preebook{
 
 height: 45px;
 
@@ -132,6 +136,8 @@ border: 1px solid #f7f3f3;
 box-shadow: 22px 22px 22px 22px #f7f3f3;
 
 padding: 15px;
+
+border-radius: 15px;
 }
 .content-image{
 }
@@ -223,16 +229,15 @@ color: #3a3a3a;
     
 color: #787885;
 }
-.member-contents,.preebook{
+.member-contents{
     
 background-color: transparent;
     
 text-align: -webkit-center;
 }
-.member-contents,.preebook a{
-    color: #E02C6D;
-}
-.member-contents,.preebook:hover{
+
+
+.member-contents{
     background-color: transparent;
 }
 /* member css end */
@@ -262,4 +267,23 @@ color: #fff;
 font-size: 24px;
     
 padding: 0 15px;
+}
+
+
+
+/* media query for small phone*/
+@media only screen and (max-width:576px) {
+    .top-title{
+        font-size: 20px;
+    }
+    .influencers-journey{
+        
+    }
+    .influencers-journey h1{
+       
+    }
+    .influencers-journey p{
+
+    }
+
 }

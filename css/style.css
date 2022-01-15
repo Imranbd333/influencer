@@ -66,13 +66,13 @@ header,.influencers-journey,.logos{
    
    line-height: 45px;
 }  
-    .preebook i {
+.preebook i {
 
    margin-left: 5px;
    
    color: #fff;
 }  
-    .journey-image{
+.journey-image{
     text-align: end;
     margin-top: 75px;
     }
@@ -189,6 +189,7 @@ header,.influencers-journey,.logos{
 .team-member h1,h5{   
    text-align: center;      
    font-size: 35px;
+   color: #3a3a3a;
 }
 .team-member h5{ 
    font-size: 16px;
@@ -313,7 +314,7 @@ text-align: center;
         
 height: 250px;
     }
-    .camera-collection h1{
+    .camera-collection{
 font-size: 30px;
     }
     .collection-items, .members{
